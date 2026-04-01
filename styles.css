@@ -88,3 +88,27 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+/* Jaiden's card styling */
+#jaiden-card {
+    border: 2px solid #e8a000;
+    background: #fffbf0;
+}
+
+#jaiden-card h2 {
+    color: #b37400;
+}
+
+#jaiden-card .moodboard {
+    margin-top: 15px;
+    padding: 10px;
+    background: #fff3cc;
+    border-radius: 6px;
+    font-size: 0.9em;
+}
+
+#jaiden-card .moodboard a {
+    display: block;
+    color: #007BFF;
+    margin-top: 5px;
+}
