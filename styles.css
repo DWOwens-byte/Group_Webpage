@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 /* General page styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Inter', sans-serif;
+    background-color: #cbd5e1;
+    color: #0f172a;
     margin: 0;
     padding: 0;
 }
 
 /* Header section styling */
 header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+    background: transparent;
+    color: #0f172a;
+    padding: 30px 0 20px 0;
+    box-shadow: none;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -32,17 +36,23 @@ header nav {
 }
 
 header nav button {
-    background: #007BFF;
-    color: white;
+    background: #e2e8f0;
+    color: #475569;
+    font-family: 'Inter', sans-serif;
     border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 12px 24px;
+    border-radius: 9999px; /* Pill shape */
+    font-weight: 600;
+    transition: all 0.2s ease;
     cursor: pointer;
     margin: 0 5px;
 }
 
 header nav button:hover {
-    background: #0056b3;
+    background: #3b82f6;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
 }
 
 /* Flex container for team bios and vision sections */
@@ -83,16 +93,21 @@ h2 {
 
 /* Button styling */
 button {
-    background: #007BFF;
+    background: #2563eb;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease;
     color: white;
     border: none;
     padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
 }
 
 button:hover {
-    background: #0056b3;
+    background: #1d4ed8;
+    box-shadow: 0 4px 10px rgba(37, 99, 235, 0.2);
+    transform: translateY(-1px);
 }
 
 /* Douglas Owens Special Card Styling */
