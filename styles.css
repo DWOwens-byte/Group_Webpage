@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
 /* General page styling */
 body {
     font-family: Arial, sans-serif;
@@ -18,6 +22,8 @@ header {
 .team-logo {
     width: 150px; /* Adjust the size as needed */
     margin-top: 10px;
+    height: 150px;
+    object-fit: contain;
 }
 
 /* Menu button styling */
@@ -87,4 +93,175 @@ button {
 
 button:hover {
     background: #0056b3;
+}
+
+/* Douglas Owens Special Card Styling */
+.douglas-card {
+    background: linear-gradient(145deg, #2d0b00, #1c1c1c);
+    border: 2px solid #ff5722;
+    color: #ffd54f;
+    box-shadow: 0 0 15px rgba(255, 87, 34, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.douglas-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 87, 34, 0.8);
+}
+
+.douglas-card h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #ff9800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    margin-top: 15px;
+}
+
+.douglas-card p {
+    color: #fff3e0;
+}
+
+.douglas-card .bio {
+    color: #ffcc80;
+}
+
+.douglas-card img {
+    border: 3px solid #ff9800;
+    box-shadow: 0 0 20px rgba(255, 87, 34, 0.8);
+    background: radial-gradient(circle, #ff9800, #4e1a05);
+}
+
+.douglas-card button {
+    background: linear-gradient(45deg, #e65100, #ff9800);
+    border: 1px solid #ffb74d;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
+}
+
+.douglas-card button:hover {
+    background: linear-gradient(45deg, #ff9800, #ffc107);
+    color: #333;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffc107;
+}
+
+/* William Igwe (Kirby) Special Card Styling */
+.william-card {
+    background: linear-gradient(135deg, #ffe4e1, #ffb6c1);
+    border: 3px solid #ff69b4;
+    color: #db7093;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.william-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 105, 180, 0.7);
+}
+
+.william-card h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #ff1493;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+}
+
+.william-card p {
+    color: #c71585;
+}
+
+.william-card .bio {
+    color: #d02090;
+}
+
+.william-card img {
+    border: 5px solid #fff;
+    box-shadow: 0 0 15px rgba(255, 20, 147, 0.5);
+    background: radial-gradient(circle, #fff, #ffe4e1);
+    border-radius: 50% !important; /* Circular like Kirby */
+    object-fit: cover;
+    height: 150px;
+}
+
+.william-card button {
+    background: linear-gradient(45deg, #ff69b4, #ff1493);
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0 4px 10px rgba(255, 20, 147, 0.4);
+    transition: all 0.3s ease;
+}
+
+.william-card button:hover {
+    background: linear-gradient(45deg, #ff1493, #ff69b4);
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ff1493;
+}
+
+/* Jaiden Jackson Special Card Styling */
+.jaiden-card {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #e0eaf5;
+    box-shadow: 0 10px 30px rgba(30, 60, 114, 0.4);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.jaiden-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(42, 82, 152, 0.6);
+}
+
+.jaiden-card h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+
+.jaiden-card p {
+    color: #a8c0ff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jaiden-card .bio {
+    color: #e0eaf5;
+    font-weight: 300;
+}
+
+.jaiden-card img {
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+}
+
+.jaiden-card button {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.jaiden-card button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+    border-color: #ffffff;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
 }
