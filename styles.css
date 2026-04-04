@@ -280,3 +280,53 @@ button:hover {
     border-color: #ffffff;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
 }
+
+.jamison-card {
+    background: linear-gradient(135deg, #300a24, #3e0f2f);
+    border: 3px solid #00bfa6;
+    color: #e0eaf5;
+    box-shadow: 0 0 20px rgba(44, 83, 100, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.jamison-card img {
+    border: 3px solid #1c1c1c;
+    box-shadow: 0 0 15px #00bfa6;
+    border-radius: 12px;
+    width: 150px;
+}
+
+.jamison-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(44, 83, 100, 0.8);
+}
+
+.jamison-card h2 {
+    font-family: 'Adobe Clean', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    margin-top: 15px;
+}
+
+.jamison-card p {
+    color: #cfd8dc;
+    margin-bottom: 25px;
+}
+
+.jamison-card button {
+    background: #00bfa6;
+    border: 2px solid rgba(0,0,0,0.2);
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
+}
+
+.jamison-card button:hover {
+    background: #00bfa6;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #00bfa6;
+}
